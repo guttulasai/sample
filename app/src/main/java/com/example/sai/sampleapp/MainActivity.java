@@ -32,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 st=etEnter.getText().toString();
 
-                tvView.setText(st);
+
+                tvView.setText("hey "+st);
+                tvView.append("\n Hie there");
             }
         });
     }
